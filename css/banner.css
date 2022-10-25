@@ -1,0 +1,85 @@
+@media (min-width: 501px){
+		.secao-banner{
+		background-image: url(../img/imagem-banner.jpg);
+		background-repeat: no-repeat;
+		height: 550px;
+		width: 100%;
+		background-size: cover;
+		z-index: -1;
+	}
+	.titulo-do-banner{
+		text-align: center;
+		padding: 90px 30px;
+		font-family: poppins,sans-serif;
+		font-weight: 600;
+		font-style: normal;
+		line-height: 1.8;
+	}
+	.img-omlpmosp{
+		width: 250px;
+		margin-top: -125px;
+	}
+	.nossas-unidades-botao{
+		font-family: poppins,sans-serif;
+		font-size: 20px;
+		font-weight: 600;
+		font-style: normal;
+		color: #9A171C;
+		text-align: center;
+		margin-left: 30px;
+		margin-right: 30px;
+	}
+	
+	.borda-nossas-unidades-botao{
+		border: solid;
+		padding: 10px;
+	}
+	a:link {
+		text-decoration: none;
+	}
+	
+}
+
+@media (max-width: 500px){
+	.secao-banner{
+		background-image: url(../img/imagem-banner-sm.jpg);
+		background-repeat: no-repeat;
+		position: relative;
+		height: 400px;
+		width: 100%;
+		background-size: cover;
+		z-index: -1;
+	}
+	.titulo-do-banner{
+		text-align: center;
+		padding: 90px 20px 30px 20px;
+		font-family: poppins,sans-serif;
+		font-weight: 600;
+		font-style: normal;
+		line-height: 1.8;
+	}
+	.nossas-unidades-botao{
+		font-family: poppins,sans-serif;
+		font-size: 14px;
+		font-weight: 600;
+		font-style: normal;
+		color: #9A171C;
+		text-align: center;
+	}
+	.borda-nossas-unidades-botao{
+		border: solid;
+		padding: 10px;
+	}
+	.img-omlpmosp{
+		width: 200px;
+		margin-top: -100px;
+	}
+}
+@keyframes scroll{
+	0%{
+		transform: translateX(0);
+	}
+	100%{
+		transform: translateX(calc(-250px * 7));
+	}
+}

@@ -1,0 +1,48 @@
+.color-text-list{
+    font-family: system-ui,sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+}
+
+.color-text-list2{
+    font-family: system-ui,sans-serif;
+    color: black;
+    font-weight: 500;
+}
+
+h3{
+    font-family: poppins,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    color: #9A171C;
+    margin-top: 30px;
+}
+
+h4{    /*Poppins Medium*/
+    font-family: poppins,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 19px;
+    color: #00365F;
+    margin-top: 30px;
+}
+
+.ul-pp{
+    margin-top: 30px;
+}
+
+.text-pp{
+    margin-top: 30px;
+}
+
+.text-pp a{
+    color: #00365F;
+    font-weight: 500;
+    text-decoration-line: underline;
+}
+
+.text-pp a:hover{
+    color: #9A171C;
+}

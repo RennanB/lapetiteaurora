@@ -1,0 +1,25 @@
+.texto-principal{
+    text-align: left;
+}
+
+.img-foto{
+    width: 400px;
+}
+
+.mvv_box{
+    margin-top: 60px;
+}
+
+.mvv_titulo{
+    font-family: poppins,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 26px;
+    color: #9A171C;
+}
+
+@media (max-width: 600px){
+    .img-foto{
+        width: 100%;
+    }
+}

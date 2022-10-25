@@ -1,0 +1,45 @@
+.footer-bloco{
+    padding-top: 20px;
+    align-items: center;
+}
+
+.footer-lpa{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.footer-lpa, li{
+   list-style:none;
+   color: white;
+   font-family: poppins,sans-serif;
+   font-weight: 300;
+   font-style: normal;
+   margin-right: 20px;
+}
+
+.copyright{
+   text-align: right;
+   color: white;
+   font-family: poppins,sans-serif;
+   font-size: 13px;
+   font-weight: 300;
+   font-style: normal;
+
+  
+}
+
+.footer-lpa-itens{
+    font-size: 13px;
+}
+
+@media (max-width: 600px){
+    .footer-lpa{
+        justify-content: center;
+    }
+
+    .copyright{
+        text-align: center;
+        margin-bottom: 20px;
+     }
+     
+}
